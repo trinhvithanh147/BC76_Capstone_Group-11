@@ -20,11 +20,7 @@ h1,h2,h3,h4,h5{
 h1{
     font-size: 2em;
 }
-.container{
-    padding: 0 25px !important;
-    max-width: 1200px !important;
-    height: 54px;
-}
+
 /* header */
 .header{
     background-color: #fff;
@@ -33,6 +29,7 @@ h1{
     align-items: center;
     height: 90px;
     width: 100%;
+
 }
 
 .header .navbar-brand{
@@ -100,9 +97,126 @@ h1{
     font-weight: 700;
     border-color: #dc4f72;
     color: #dc4f72;
-    transition: all 0.3s;
+    transition: all 0.5s;
 }
 .header .navbar_button button:hover{
     background-color: #dc4f72;
     color: #fff;
 }
+/* footer */
+footer{
+    background-color: #F7F9FC;
+    
+}
+.footer_input_newsletter{
+    box-shadow: 1px 5px 7.5px rgba(14, 13, 13, 0.2);
+    padding: 2em;
+    border-radius: 6px;
+    background-color: #fff;
+    margin-top: 30px;
+}
+.footer_input_newsletter input{
+    padding: 12px 20px;
+    width: 78%;
+    border: 1px solid transparent;
+    background-color: #F7F9FC;
+    outline: none;
+    border-radius: 6px;
+    font-weight: 600;
+    margin-top: 30px;
+}
+.footer_input_newsletter button{
+    border: 1px solid transparent;
+    padding: 12px 20px;
+    background-color: #dc4f72;
+    color: #fff;
+    width: 20%;
+    border-radius: 6px;
+
+}
+.footer_input_newsletter form{
+    margin-bottom: 15px;
+}
+footer .row h3{
+    font-size: 20px;
+    color: #2C3038;
+    margin-bottom: 30px;
+    font-weight: 700;
+}
+footer .row h4{
+    font-size: 18px;
+    color: #2C3038;
+
+}
+footer .row li{
+    margin: 5px 0;
+    display: block;
+    list-style: none;
+}
+footer .row li a{
+    padding: 0;
+    color: #656f7b;
+    font-size: 15px;
+    line-height: 25px;
+    transition: all 0.5s;
+}
+footer .row li a:hover{
+    color: #dc4f72;
+}
+.footer_bottom{
+    border-top: 1px solid #eee;
+    margin-top: 48px;
+    padding-top: 24px;
+}
+.footer_bottom .footer_text p{
+    line-height: 22px;
+    font-size: 16px;
+    color: #5a5a5a;
+}
+.footer_bottom .footer_text .footer_link{
+    text-decoration: none;
+    color: #5a5a5a;
+    transition: all 0.5s;
+}
+.footer_bottom .footer_text .footer_link:hover{
+    color: #dc4f72;
+    opacity: 0.8;
+}
+.footer_icon li a{
+    width: 36px;
+    height: 36px;
+    color: #2C3038;
+    
+}
+.footer_icon li i{
+    font-size: 15px;
+    transition: all 0.3s;
+}
+.footer_icon li a:hover{
+    color: #dc4f72;
+}
+/* back-to-top */
+.back_to_top{
+    width: 50px;
+    height: 45px;
+    position: fixed;
+    bottom: 0;
+    right: 2px;
+    background-color: #dc4f72;
+    color: #fff;
+    opacity: 0.7;
+    line-height: 45px;
+    text-align: center;
+    border-radius: 3px;
+    font-size: 22px;
+    transition: all 0.5s;
+    opacity: 0;
+}
+.cd-top--is-visible {
+    visibility: visible;
+    opacity: 1;
+  }
+  
+  .cd-top--fade-out {
+    opacity: .5;
+  }

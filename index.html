@@ -33,7 +33,7 @@
 <body>
     <header class="header fixed_header nav-fixed">
         <div class="container">
-            <nav class="navbar navbar-expand-lg p-lg-0">
+            <nav class="navbar navbar-expand-lg p-0">
                 <h1>
                     <a class="navbar-brand" href="#">
                         <i class="fa fa-handshake-o"></i>
@@ -86,25 +86,67 @@
             </nav>
         </div>
     </header>
-    <footer>
+    <footer class="py-5">
         <div class="container">
             <div class="row">
-                <div class="col">
-                    <h3>Meta</h3>
-                    <ul>
-                        <li>Log In</li>
-                        <li>Entries Feed</li>
-                        <li>Comments Feed</li>
-                        <li>WordPress.Org</li>
+                <div class="col-6">
+                    <div class="row">
+                        <div class="col-4">
+                            <h3>Meta</h3>
+                            <ul class="nav flex-column">
+                                <li class="nav-item"><a href="#" class="nav-link">Log In</a></li>
+                                <li class="nav-item"><a href="#" class="nav-link">Entries Feed</a></li>
+                                <li class="nav-item"><a href="#" class="nav-link">Comments Feed</a></li>
+                                <li class="nav-item"><a href="#" class="nav-link">WordPress.Org</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-4">
+                            <h3>Categories</h3>
+                            <ul class="nav flex-column">
+                                <li class="nav-item"><a href="#" class="nav-link">Business</a></li>
+                                <li class="nav-item"><a href="#" class="nav-link">Design</a></li>
+                                <li class="nav-item"><a href="#" class="nav-link">Industry</a></li>
+                                <li class="nav-item"><a href="#" class="nav-link">Programming</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-4">
+                            <h3>Archives</h3>
+                            <ul class="nav flex-column">
+                                <li class="nav-item"><a href="#" class="nav-link">March 2021</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6">
+                    <h3>Newsletter</h3>
+                    <div class="footer_input_newsletter">
+                        <h4>Get latest updates and offers.</h4>
+                        <form action="">
+                            <input type="emai" placeholder="Email Address">
+                            <button id="email">Go</button>
+                        </form>
+                        <p>Sign up for our latest news & articles. We won't give you spam mails.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="footer_bottom d-flex justify-content-between">
+                <div class="footer_text">
+                    <p>© 2024 Masterwork. All Rights Reserved | WordPress Theme by <a href=""
+                            class="footer_link">W3Layouts.</a></p>
+                </div>
+                <div class="footer_icon">
+                    <ul class="nav">
+                        <li class="nav-item"><a href="" class="nav-link"><i class="fa fa-facebook"></i></a></li>
+                        <li class="nav-item"><a href="" class="nav-link"><i class="fab fa-linkedin-in"></i></a></li>
+                        <li class="nav-item"><a href="" class="nav-link"><i class="fab fa-twitter"></i></a></li>
+                        <li class="nav-item"><a href="" class="nav-link"><i class="fab fa-google-plus-g"></i></a></li>
+                        <li class="nav-item"><a href="" class="nav-link"><i class="fa-brands fa-github"></i></a></li>
                     </ul>
                 </div>
-                <div class="col"></div>
-                <div class="col"></div>
-                <div class="col"></div>
             </div>
-        </div>
+    </div>
     </footer>
-
+    <a href="#" class="cd-top text-replace js-cd-top back_to_top"><i class="fa fa-angle-up"></i></a>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
         integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
         crossorigin="anonymous"></script>
