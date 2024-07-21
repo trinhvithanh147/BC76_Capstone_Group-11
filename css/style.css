@@ -1,6 +1,114 @@
+/* ultility class */
 *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
     font-family: 'Nunito', sans-serif;
+   
+}
+body{
+    color: #404040;
+    font-size: 16px;
+    line-height: 1.5;
+}
+h1,h2,h3,h4,h5{
+    margin: 0;
+    padding: 0;
+    font-weight: 500;
+    line-height: 1.2;
+}
+h1{
+    font-size: 2em;
+}
+.container{
+    padding: 0 25px !important;
+    max-width: 1200px !important;
+    height: 54px;
+}
+/* header */
+.header{
+    background-color: #fff;
+    box-shadow: 0 3px 9px rgba(0, 0, 0, 0.05);
+    display: flex;
+    align-items: center;
+    height: 90px;
+    width: 100%;
+}
+.fixed_header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 999;
+}
+
+.header .navbar-brand{
+    font-size: 26px;
+    font-weight: 700;
+    color: #dc4f72;
+    padding: 0;
+    margin: 0;
+    letter-spacing: -1px;
+}
+.header .navbar-nav .nav-item{
+    padding: 0 15px;
+}
+.header .navbar-nav .nav-item .nav-link{
+    padding: 14px 0;
+    font-size: 16px;
+    font-weight: 400;
+    position: relative;
+    color: #2C3038;
+}
+.header .navbar-nav .nav-item .nav-link.active{
+    color: #dc4f72;
+}
+.header .navbar-nav .nav-item:hover .nav-link{
+    color: #dc4f72;
+    transition: all 0.5s;
+}
+.header .navbar-nav .nav-item .nav-link::before{
+    content: "";
+    position: absolute;
+    bottom: 13px;
+    left: 0;
+    width: 0px;
+    height: 2px;
+    background-color: #dc4f72;
+    transition: all 0.5s;
+}
+.header .navbar-nav .nav-item:hover .nav-link::before{
+    width: 20px;
+}
+.navbar-expand-lg{
+    display: flex;
+    align-items: center;
+}
+.header .navbar_search i{
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    font-size: 15px;
+    color: #5a5a5a;
+    opacity: 0.7;
+    background-color: #F7F9FC;
+    cursor: pointer;
+}
+.header .navbar_search i:hover{
+    opacity: 1;
+    color: #2C3038;
+}
+.header .navbar_button button{
+    padding: 0 30px;
+    height: 54px;
+    font-size: 14px;
+    font-weight: 700;
+    border-color: #dc4f72;
+    color: #dc4f72;
+    transition: all 0.3s;
+}
+.header .navbar_button button:hover{
+    background-color: #dc4f72;
+    color: #fff;
 }
