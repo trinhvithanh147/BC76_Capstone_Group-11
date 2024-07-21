@@ -11,6 +11,7 @@ body{
     font-size: 16px;
     line-height: 1.5;
 }
+
 h1,h2,h3,h4,h5{
     margin: 0;
     padding: 0;
@@ -29,7 +30,13 @@ h1{
     align-items: center;
     height: 90px;
 }
-
+.fixed_header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    width: 100%;
+}
 .header .navbar-brand{
     font-size: 26px;
     font-weight: 700;
@@ -211,7 +218,6 @@ footer .row li a:hover{
     opacity: 0;
     cursor: pointer;
     z-index: 1;
-    visibility: hidden;
 }
 .back_to_top:hover{
     opacity: 1;
