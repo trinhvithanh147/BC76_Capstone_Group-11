@@ -97,7 +97,7 @@ h1{
 }
 .header .navbar_button button{
     padding: 0 30px;
-    height: 54px;
+    line-height: 54px;
     font-size: 14px;
     font-weight: 700;
     border-color: #dc4f72;
@@ -236,11 +236,11 @@ footer .row li a:hover{
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
-    overflow: hidden;
-    
 }
 .idea_content{
     padding-top: 80px;
+    
+    
 }
 .idea_content h3{
     font-size: 50px;
@@ -389,4 +389,64 @@ footer .row li a:hover{
 .number .number_content p:last-of-type{
     color: #5a5a5a;
     margin: 0;
+}
+/* banner_text */
+.banner_text{
+    padding: 32px 0;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.33)), url(../img/bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    min-height: 480px;
+    display: flex;
+    align-items: center;
+    background-attachment: fixed;
+}
+
+.banner_text .banner_text_content{
+    z-index: 100;
+}
+.banner_text .banner_text_content h2{
+    font-size: 30px;
+    color: #ffffff;
+    line-height: 36px;
+    font-weight: 700;
+}
+.banner_text .banner_text_content p{
+    font-size: 16px;
+    color: #eee;
+    line-height: 24.5px;
+    margin: 24px 0 48px;
+}
+.banner_text .banner_text_content  button{
+    padding: 0 30px;
+    font-size: 14px;
+    color: #fff;
+    background-color: #f8f9fa;
+    line-height: 52px;
+    font-weight: 700;
+    border-color: #f8f9fa;
+    transition: all 0.5s;
+    color: #212529;
+}
+.banner_text .banner_text_content  button:hover{
+    background-color: #e2e6ea !important;
+    border-color: #dae0e5;
+    color: #212529;
+}
+/* questions_answers */
+.questions_answers{
+    background-color: #F7F9FC;
+}
+.accordion-item{
+    margin-bottom: 15px;
+}
+.accordion-item .accordion-button{
+    font-size: 20px;
+    line-height: 1;
+    color: #2C3038;
+    padding: 25px 50px 25px 20px;
+}
+.accordion-flush{
+    padding: 0px 15px 0px 48px;
 }
