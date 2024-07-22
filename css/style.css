@@ -29,7 +29,12 @@ h1 {
     max-width: 1200px;
   }
 }
-
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+}
 /* header */
 .header {
   background-color: #fff;
@@ -42,7 +47,7 @@ h1 {
   position: fixed;
   top: 0;
   left: 0;
-  z-index: 1;
+  z-index: 999;
   width: 100%;
 }
 .header .navbar-brand {
@@ -362,7 +367,7 @@ footer .row li a:hover {
   border-color: #cf2952;
 }
 .company_content img {
-  width: 560.33px;
+  max-width: 100%;
   border-radius: 6px;
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
   transition: all 0.3s ease-in-out;
@@ -463,8 +468,7 @@ footer .row li a:hover {
 }
 
 .questions_answers_content img {
-  width: 461.66px;
-  height: 492.23px;
+  max-width: 100%;
   transition: 0.3s ease-in;
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
   border-radius: 6px;
