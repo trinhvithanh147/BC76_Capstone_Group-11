@@ -97,7 +97,7 @@ h1{
 }
 .header .navbar_button button{
     padding: 0 30px;
-    height: 54px;
+    line-height: 54px;
     font-size: 14px;
     font-weight: 700;
     border-color: #dc4f72;
