@@ -393,3 +393,45 @@ footer .row li a:hover{
         top: -20px;
     }
  }
+ /* setup */
+ .navbar_moon{
+    width: 24px;
+    height: 24px;
+  }
+  .navbar-toggler-icon{
+    background-image: none !important;
+    padding: 0;
+    width: 1.5em;
+    height: 1.5em;
+  }
+  
+  @media screen and (max-width: 991px) {
+    .navbar-toggler-icon.fa{
+        color: #fff;
+        line-height: 34px;
+        background-color: #dc4f72;
+        border-radius: 0.25rem ;
+        border: none;
+    }
+    .navbar-toggler{
+        padding: 0 !important;
+        font-size: 24px;
+    }
+    @media only screen and (max-width: 991px) {
+        header.header{
+            height: auto;
+            padding: 15px 0;
+        }
+    }  
+    .navbar{
+        text-align: center;
+    }
+  }
+
+  @media screen and (max-width: 568px) {
+    .navbar_moon{
+      position: absolute;
+        top: 9px;
+        right: 46px;
+    }
+  }
