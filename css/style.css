@@ -24,11 +24,7 @@ h5 {
 h1 {
   font-size: 2em;
 }
-@media (min-width: 1280px) {
-  .container {
-    max-width: 1200px;
-  }
-}
+
 
 /* header */
 .header {
@@ -571,7 +567,7 @@ footer .row li a:hover {
 }
 
 .carousel_content .carousel_img img {
-  width: 100%;
+  max-width: 100%;
   min-height: 100%;
   width: 94px;
   height: 141px;
@@ -802,7 +798,21 @@ footer .row li a:hover {
         text-align: center;
     }
   }
-  
+  @media (max-width: 667px) {
+    .carousel_item{
+        grid-template-columns: 1fr !important;
+        text-align: center;
+        margin-top: 1rem;
+        padding: 0;
+    }
+    .carousel_img{
+        margin: 0 auto;
+    }
+    .carousel_item i{
+        position: absolute;
+        left: 0;
+    }
+}
   @media screen and (max-width: 568px) {
     .navbar_moon{
       position: absolute;
@@ -810,3 +820,14 @@ footer .row li a:hover {
         right: 46px;
     }
   }
+  @media (max-width: 480px) {
+    .carousel_item{
+        grid-gap: 10px !important;
+        padding: 2rem 1rem !important;
+    }
+}
+@media (min-width: 1280px) {
+  .container {
+    max-width: 1200px;
+  }
+}
