@@ -696,3 +696,117 @@ footer .row li a:hover {
   transition: opacity 0.2s ease;
   background-color: #fff;
 }
+/* setup */
+.navbar_moon{
+    width: 24px;
+    height: 24px;
+  }
+  .navbar-toggler-icon{
+    background-image: none !important;
+    padding: 0;
+    width: 1.5em;
+    height: 1.5em;
+  }
+  
+  @media screen and (max-width: 991px) {
+    .navbar-toggler-icon.fa{
+        color: #fff;
+        line-height: 34px;
+        background-color: #dc4f72;
+        border-radius: 0.25rem ;
+        border: none;
+    }
+    .navbar-toggler{
+        padding: 0 !important;
+        font-size: 24px;
+    }
+    @media only screen and (max-width: 991px) {
+        header.header{
+            height: auto;
+            padding: 15px 0;
+        }
+    }  
+    .navbar{
+        text-align: center;
+    }
+  }
+  
+  @media screen and (max-width: 568px) {
+    .navbar_moon{
+      position: absolute;
+        top: 9px;
+        right: 46px;
+    }
+  }
+
+  /* community */
+  .community .button button:first-of-type {
+    border-color: #dc4f72;
+    color: #dc4f72;
+    font-weight: 700;
+    padding: 0 30px;
+    line-height: 52px;
+    font-size: 14px;
+    transition: all 0.3s;
+  }
+  .community .button button:hover:first-of-type {
+    background-color: #dc4f72;
+    color: #fff;
+  }
+  .community .button button:last-of-type {
+    padding: 0 30px;
+    font-size: 14px;
+    color: #fff;
+    background-color: #dc4f72;
+    line-height: 52px;
+    font-weight: 700;
+    border-color: #dc4f72;
+    transition: all 0.5s;
+  }
+  .community .button button:hover:last-of-type {
+    color: #fff;
+    background-color: #d62f58;
+    border-color: #cf2952;
+  }
+  /* setup */
+.navbar_moon{
+    width: 24px;
+    height: 24px;
+  }
+  .navbar-toggler-icon{
+    background-image: none !important;
+    padding: 0;
+    width: 1.5em;
+    height: 1.5em;
+  }
+  
+  @media screen and (max-width: 991px) {
+    .navbar-toggler-icon.fa{
+        color: #fff;
+        line-height: 34px;
+        background-color: #dc4f72;
+        border-radius: 0.25rem ;
+        border: none;
+    }
+    .navbar-toggler{
+        padding: 0 !important;
+        font-size: 24px;
+    }
+    @media only screen and (max-width: 991px) {
+        header.header{
+            height: auto;
+            padding: 15px 0;
+        }
+    }  
+    .navbar{
+        text-align: center;
+    }
+  }
+  
+  @media screen and (max-width: 568px) {
+    .navbar_moon{
+      position: absolute;
+        top: 9px;
+        right: 46px;
+    }
+  }
