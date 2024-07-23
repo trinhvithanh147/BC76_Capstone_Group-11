@@ -261,7 +261,7 @@ footer .row li a:hover {
   line-height: 28px;
   color: #5a5a5a;
   font-weight: 400;
-  width: 450px;
+  max-width: 450px;
   margin-top: 16px;
   margin-bottom: 48px;
 }
@@ -337,7 +337,6 @@ footer .row li a:hover {
 }
 /* company */
 .company {
-  padding: 48px 0;
   background-color: #f7f9fc;
 }
 .company_content p {
@@ -465,6 +464,7 @@ footer .row li a:hover {
   line-height: 1;
   color: #2c3038;
   padding: 25px 50px 25px 20px;
+  max-width: 100%;
 }
 
 .questions_answers_content img {
@@ -628,3 +628,4 @@ footer .row li a:hover {
   background-color: #d62f58;
   border-color: #cf2952;
 }
+
