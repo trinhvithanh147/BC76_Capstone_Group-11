@@ -1,0 +1,236 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Nunito", sans-serif;
+}
+body {
+  color: #404040;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  margin: 0;
+  padding: 0;
+  font-weight: 500;
+  line-height: 1.2;
+}
+h1 {
+  font-size: 2em;
+}
+/* header */
+.header {
+  background-color: #fff;
+  box-shadow: 0 3px 9px rgba(0, 0, 0, 0.05);
+  display: flex;
+  align-items: center;
+  height: 90px;
+}
+.fixed_header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  width: 100%;
+}
+.header .navbar-brand {
+  font-size: 26px;
+  font-weight: 700;
+  color: #dc4f72;
+  padding: 0;
+  margin: 0;
+  letter-spacing: -1px;
+}
+.header .navbar-nav .nav-item {
+  padding: 0 15px;
+}
+.header .navbar-nav .nav-item .nav-link {
+  padding: 14px 0;
+  font-size: 16px;
+  font-weight: 400;
+  position: relative;
+  color: #2c3038;
+}
+.header .navbar-nav .nav-item .nav-link.active {
+  color: #dc4f72;
+}
+.header .navbar-nav .nav-item:hover .nav-link {
+  color: #dc4f72;
+  transition: all 0.5s;
+}
+.header .navbar-nav .nav-item .nav-link::before {
+  content: "";
+  position: absolute;
+  bottom: 13px;
+  left: 0;
+  width: 0px;
+  height: 2px;
+  background-color: #dc4f72;
+  transition: all 0.5s;
+}
+.header .navbar-nav .nav-item:hover .nav-link::before {
+  width: 20px;
+}
+.navbar-expand-lg {
+  display: flex;
+  align-items: center;
+}
+.header .navbar_search i {
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  line-height: 40px;
+  border-radius: 50%;
+  font-size: 15px;
+  color: #5a5a5a;
+  opacity: 0.7;
+  background-color: #f7f9fc;
+  cursor: pointer;
+}
+.header .navbar_search i:hover {
+  opacity: 1;
+  color: #2c3038;
+}
+.header .navbar_button button {
+  padding: 0 30px;
+  line-height: 54px;
+  font-size: 14px;
+  font-weight: 700;
+  border-color: #dc4f72;
+  color: #dc4f72;
+  transition: all 0.5s;
+}
+.header .navbar_button button:hover {
+  background-color: #dc4f72;
+  color: #fff;
+}
+/* footer */
+footer {
+  background-color: #f7f9fc;
+}
+.footer_input_newsletter {
+  box-shadow: 1px 5px 7.5px rgba(14, 13, 13, 0.2);
+  padding: 2em;
+  border-radius: 6px;
+  background-color: #fff;
+  margin-top: 30px;
+}
+.footer_input_newsletter input {
+  padding: 12px 20px;
+  width: 78%;
+  border: 1px solid transparent;
+  background-color: #f7f9fc;
+  outline: none;
+  border-radius: 6px;
+  font-weight: 600;
+  margin-top: 30px;
+}
+.footer_input_newsletter button {
+  border: 1px solid transparent;
+  padding: 12px 20px;
+  background-color: #dc4f72;
+  color: #fff;
+  width: 20%;
+  border-radius: 6px;
+}
+.footer_input_newsletter form {
+  margin-bottom: 15px;
+}
+footer .row h3 {
+  font-size: 20px;
+  color: #2c3038;
+  margin-bottom: 30px;
+  font-weight: 700;
+}
+footer .row h4 {
+  font-size: 18px;
+  color: #2c3038;
+}
+footer .row li {
+  margin: 5px 0;
+  display: block;
+  list-style: none;
+}
+footer .row li a {
+  padding: 0;
+  color: #656f7b;
+  font-size: 15px;
+  line-height: 25px;
+  transition: all 0.5s;
+}
+footer .row li a:hover {
+  color: #dc4f72;
+}
+.footer_bottom {
+  border-top: 1px solid #eee;
+  margin-top: 48px;
+  padding-top: 24px;
+}
+.footer_bottom .footer_text p {
+  line-height: 22px;
+  font-size: 16px;
+  color: #5a5a5a;
+}
+.footer_bottom .footer_text .footer_link {
+  text-decoration: none;
+  color: #5a5a5a;
+  transition: all 0.5s;
+}
+.footer_bottom .footer_text .footer_link:hover {
+  color: #dc4f72;
+  opacity: 0.8;
+}
+.footer_icon li a {
+  width: 36px;
+  height: 36px;
+  color: #2c3038;
+}
+.footer_icon li i {
+  font-size: 15px;
+  transition: all 0.3s;
+}
+.footer_icon li a:hover {
+  color: #dc4f72;
+}
+/* back-to-top */
+.back_to_top {
+  position: fixed;
+  bottom: 0;
+  right: 2px;
+  opacity: 0;
+  transition: all 0.5s;
+}
+.back_to_top i {
+  width: 50px;
+  height: 45px;
+  background-color: #dc4f72;
+  color: #fff;
+  line-height: 45px;
+  text-align: center;
+  border-radius: 3px;
+  font-size: 22px;
+  transition: all 0.5s;
+  z-index: 1;
+  outline: none;
+}
+.back_to_top:hover {
+  opacity: 1;
+}
+.cd-top--is-visible {
+  visibility: visible;
+  opacity: 0.7;
+}
+/* breadcrumbs  */
+.breadcrumbs {
+  margin-top: 90px;
+  padding: 20px 0;
+  font-size: 14px;
+}
+.page_bg {
+  background-color: #f7f9fc;
+}
