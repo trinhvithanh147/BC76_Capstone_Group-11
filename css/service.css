@@ -234,3 +234,14 @@ footer .row li a:hover {
 .page_bg {
   background-color: #f7f9fc;
 }
+
+/* service breadcrumb  */
+ol .breadcrumb {
+  margin-top: 100px;
+  font-size: 14px;
+}
+
+li .breadcrumb-item a {
+  text-decoration: none;
+  color: #dc4f72;
+}
