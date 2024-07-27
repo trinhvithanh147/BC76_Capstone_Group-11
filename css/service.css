@@ -411,3 +411,115 @@ li.breadcrumb-item a {
 .right h4 a:hover {
   color: #cf2952;
 }
+/* the best products  */
+.TBP {
+  background-color: #f7f9fc;
+}
+/* header title  */
+.TBP .sub_tittle {
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 700;
+  color: #dc4f72;
+  text-transform: uppercase;
+  margin-bottom: 5px;
+}
+.TBP h3 {
+  font-weight: 700;
+  font-size: 46px;
+  line-height: 1;
+  color: #2c302c;
+}
+/* item_content  */
+.TBP .icon {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 40px;
+  width: 40px;
+  height: 40px;
+  display: inline-block;
+  border-radius: 50%;
+  color: #dc4f72;
+  background-color: #fff;
+  text-align: center;
+  padding: 0;
+  margin-right: 10px;
+  box-shadow: 1px 5px 7.5px rgba(0, 0, 0, 0.09);
+}
+.TBP .item_content a {
+  text-decoration: none;
+  color: #2c3038;
+  font-size: 18px;
+  font-weight: 800;
+  transition: 0.3s ease-in;
+  text-transform: uppercase;
+}
+.TBP .item_content a:hover {
+  color: #dc4f72;
+}
+.TBP .img_hover {
+  transition: 0.3s ease-in-out;
+  border: 5px solid #f8f9fa;
+}
+.TBP .img_hover:hover {
+  transform: translateY(-13px);
+}
+/* Featured services */
+.FS .sub_tittle {
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 700;
+  color: #dc4f72;
+  text-transform: uppercase;
+  margin-bottom: 5px;
+}
+.FS h2 {
+  font-weight: 700;
+  font-size: 46px;
+  line-height: 1;
+  color: #2c302c;
+}
+
+.FS h3 {
+  font-weight: 700;
+  font-size: 38px;
+  line-height: 1;
+  color: #2c302c;
+}
+
+.FS ul {
+  list-style: none;
+}
+.FS li {
+  font-size: 16px;
+  line-height: 26px;
+  color: #2c3038;
+  margin: 15px 0;
+  font-weight: 600;
+}
+.FS span {
+  color: #dc4f72;
+  background-color: rgba(220, 79, 114, 0.1);
+  margin-right: 12px;
+  font-size: 10px;
+  padding: 8px;
+  border-radius: 50%;
+  display: inline-block;
+  opacity: 0.5;
+}
+
+.FS img {
+  border: 6px;
+  transition: 0.3s ease-in-out;
+  height: 330.14px;
+  display: block;
+}
+.FS img:hover {
+  transform: translateY(-13px);
+}
+.FS .content_right p {
+  margin: 20px 0;
+}
+.FS .content_left p {
+  margin-top: 20px;
+}
