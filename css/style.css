@@ -483,8 +483,9 @@ h1 {
   text-align: center;
   background-color: #fff !important;
   cursor: pointer;
+  background-color: rgb(245, 245, 245);
+  border-color: rgb(193, 193, 193);
 }
-
 .nav-tabs .nav-item .nav-link {
   color: #2c3038;
   border-bottom-color: rgb(193, 193, 193);
@@ -492,12 +493,12 @@ h1 {
 }
 
 .nav-tabs .nav-item .nav-link.active {
-  
   margin-bottom: -3px !important;
   border-bottom: 3px solid #dc4f72 !important;
   color: #dc4f72 !important;
   border-style: hidden;
   width: 100%;
+  
 }
 
 .nav-tabs {
