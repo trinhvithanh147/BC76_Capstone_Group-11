@@ -400,14 +400,17 @@ h1 {
 .accordion-item {
   margin-bottom: 15px;
 }
-
+.accordion-button:focus {
+  outline: none;
+  box-shadow: none;
+  background-color: transparent;
+}
 .accordion-item .accordion-button {
   font-size: 20px;
   line-height: 1;
   color: #2c3038;
   padding: 25px 50px 25px 20px;
   max-width: 100%;
-  
 }
 
 .questions_answers_content img {
