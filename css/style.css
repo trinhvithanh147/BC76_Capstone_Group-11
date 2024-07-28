@@ -394,6 +394,7 @@ h1 {
 /* questions_answers */
 .questions_answers {
   background-color: #f7f9fc;
+  
 }
 
 .accordion-item {
@@ -406,6 +407,7 @@ h1 {
   color: #2c3038;
   padding: 25px 50px 25px 20px;
   max-width: 100%;
+  
 }
 
 .questions_answers_content img {
@@ -417,13 +419,6 @@ h1 {
 
 .questions_answers_content img:hover {
   transform: translateY(-8px);
-}
-
-.row {
-  display: flex;
-  flex-wrap: wrap;
-  margin-right: -15px;
-  margin-left: -15px;
 }
 
 .tab-pane {
@@ -498,7 +493,7 @@ h1 {
   color: #dc4f72 !important;
   border-style: hidden;
   width: 100%;
-  
+  background-color: #fff;
 }
 
 .nav-tabs {
