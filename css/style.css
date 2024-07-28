@@ -447,8 +447,13 @@ footer .row li a:hover {
   border-radius: 6px;
   box-shadow: 1px 5px 7.5px rgba(14, 13, 13, 0.2);
   border: 1px solid #f8f9fa;
+  transition: 0.3s ease;
+  background-color: #fff;
 }
-
+.number .number_content .number_item:hover{
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.09);
+  transition: 0.3s ease;
+}
 .number .number_content h4 {
   font-size: 16px;
   line-height: 24.5px;
