@@ -309,7 +309,7 @@ footer .row li a:hover {
   @media only screen and (max-width: 991px) {
     header.header {
       height: auto;
-      padding: 15px 0;
+      padding: 25px 0;
     }
   }
   .navbar {
@@ -507,15 +507,27 @@ li.breadcrumb-item a:hover{
   box-shadow: 1px 5px 7.5px rgba(0, 0, 0, 0.09);
 }
 .TBP .item_content a {
+  display: inline-block;
   text-decoration: none;
   color: #2c3038;
   font-size: 18px;
   font-weight: 800;
   transition: 0.3s ease-in;
   text-transform: uppercase;
+  margin-bottom: 5px;
 }
+
 .TBP .item_content a:hover {
   color: #dc4f72;
+}
+.TBP .item_content p{
+  margin: 0;
+  font-size: 16px;
+  color: #5a5a5a;
+  line-height: 20.4px;
+}
+.TBP .item_content h6{
+  margin: 0;
 }
 .TBP .img_hover {
   transition: 0.3s ease-in-out;
@@ -569,7 +581,7 @@ li.breadcrumb-item a:hover{
 }
 
 .FS img {
-  border: 6px;
+  border-radius: 6px;
   transition: 0.3s ease-in-out;
   height: 330.14px;
   display: block;
