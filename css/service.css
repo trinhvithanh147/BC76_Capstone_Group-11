@@ -379,6 +379,10 @@ footer .row li a:hover {
   .navbar {
     text-align: center;
   }
+  .item_TBP{
+    width: 300PX;
+    margin: 20px auto 40px;
+  }
 }
 
 @media screen and (max-width: 568px) {
@@ -558,10 +562,12 @@ li.breadcrumb-item a:hover{
   font-size: 38px;
   line-height: 1;
   color: #2c302c;
+  margin-bottom: 10px;
 }
 
 .FS ul {
   list-style: none;
+  padding: 0;
 }
 .FS li {
   font-size: 16px;
@@ -590,10 +596,18 @@ li.breadcrumb-item a:hover{
   transform: translateY(-13px);
 }
 .FS .content_right p {
-  margin: 20px 0;
+  margin-bottom: 16px;
+  font-size: 16px;
+  line-height: 24.5px;
+  color: #5a5a5a;
+
 }
 .FS .content_left p {
-  margin-top: 20px;
+  font-size: 16px;
+  line-height: 24.5px;
+  color: #5a5a5a;
+  margin-bottom: 16px;
+  font-style: normal;
 }
 .content_left{
   padding: 2rem;
@@ -605,6 +619,7 @@ li.breadcrumb-item a:hover{
   border: 1px solid #f7f9fc;
   border-radius: 6px;
 }
+
 /* test */
 
 @media screen and (min-width: 576px) {
@@ -652,6 +667,7 @@ li.breadcrumb-item a:hover{
   .container-lg {
     max-width: 960px;
   }
+  
 }
 @media screen and (min-width: 1200px) {
   .container {
