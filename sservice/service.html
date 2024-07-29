@@ -55,77 +55,59 @@
     <!-- header -->
     <header class="header fixed_header">
       <div class="container">
-        <nav class="navbar navbar-expand-lg p-0 position-relative">
-          <h1>
-            <a class="navbar-brand" href="../index.html">
-              <i class="fa fa-handshake-o"></i>
-              <span class="navbar-brand_text">Masterwork</span>
-            </a>
-          </h1>
-          <button
-            class="navbar-toggler border-0"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <i class="navbar-toggler-icon fa icon-expand fa-bars"></i>
-          </button>
-          <div
-            class="collapse navbar-collapse justify-content-end"
-            id="navbarSupportedContent"
-          >
-            <ul class="navbar-nav">
-              <li class="nav-item">
-                <a class="nav-link" aria-current="page" href="../index.html"
-                  >Home</a
-                >
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">About</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link active" href="../sservice/service.html">Services</a>
-              </li>
-              <li class="nav-item dropdown">
-                <a
-                  class="nav-link dropdown-toggle"
-                  href="#"
-                  role="button"
-                  data-bs-toggle="dropdown"
-                  aria-expanded="false"
-                >
-                  Pages
-                </a>
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#">Blog Posts</a></li>
-                  <li><a class="dropdown-item" href="#">Landing page</a></li>
-                  <li>
-                    <a class="dropdown-item" href="../404/404page.html">
-                  </li>
-                </ul>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="../contact/contact.html">Contact</a>
-              </li>
-            </ul>
-            <div class="navbar_search me-lg-3">
-              <i class="fa fa-search"></i>
-            </div>
-            <div class="navbar_button me-lg-3">
-              <button class="btn btn-outline-light" type="submit">
-                SCHEDULE A DEMO
+          <nav class="navbar navbar-expand-lg p-0 position-relative">
+              <h1>
+                  <a class="navbar-brand" href="#">
+                      <i class="fa fa-handshake-o"></i>
+                      <span class="navbar-brand_text">Masterwork</span>
+                  </a>
+              </h1>
+              <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                  aria-expanded="false" aria-label="Toggle navigation">
+                  <i class="navbar-toggler-icon fa icon-expand fa-bars"></i>
               </button>
-            </div>
-          </div>
-          <div class="navbar_moon">
-            <i class="gg-moon"></i>
-          </div>
-        </nav>
+              <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+                  <ul class="navbar-nav">
+                      <li class="nav-item">
+                          <a class="nav-link active" aria-current="page" href="../index.html">Home</a>
+                      </li>
+                      <li class="nav-item">
+                          <a class="nav-link" href="#">About</a>
+                      </li>
+                      <li class="nav-item">
+                          <a class="nav-link" href="../sservice/service.html">Services</a>
+                      </li>
+                      <li class="nav-item dropdown">
+                          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                              aria-expanded="false">
+                              Pages
+                          </a>
+                          <ul class="dropdown-menu">
+                              <li><a class="dropdown-item" href="#">Blog Posts</a></li>
+                              <li><a class="dropdown-item" href="#">Landing page</a></li>
+                              <li><a class="dropdown-item" href="../404/404page.html">404 page</a></li>
+                          </ul>
+                      </li>
+                      <li class="nav-item">
+                          <a class="nav-link" href="../contact/contact.html">Contact</a>
+                      </li>
+                  </ul>
+                  <div class="navbar_search me-lg-3">
+                      <i class="fa fa-search"></i>
+                  </div>
+                  <div class="navbar_button me-lg-3">
+                      <button class="btn btn-outline-light" type="submit">
+                          SCHEDULE A DEMO
+                      </button>
+                  </div>
+              </div>
+              <div class="navbar_moon">
+                  <i class="gg-moon"></i>
+              </div>
+          </nav>
       </div>
-    </header>
+  </header>
     <!-- community -->
     <!-- <div class="" style="margin-top: 90px"></div>
     <section class="community py-5">
@@ -147,7 +129,7 @@
       </div>
     </section> -->
     <!-- service breadcrumb  -->
-    <div class="service_breadcrumb">
+    <div class="service_breadcrumb overflow-hidden">
       <nav
         style="--bs-breadcrumb-divider: '>>'"
         aria-label="breadcrumb"
@@ -161,7 +143,7 @@
     </div>
     <!-- Our service  -->
     <section class="py-5"></section>
-    <div class="container py-lg-3 Our_service">
+    <div class="container py-lg-3 Our_service overflow-hidden">
       <!-- tiile  -->
       <div class="title mb-5 text-center bg-white">
         <h3 class="fs-1">Our Services</h3>
@@ -227,8 +209,8 @@
     </div>
     <!-- the best products -->
     <div class="TBP">
-      <section class="py-5 TBP"></section>
-      <div class="container py-lg-3 TBP">
+      <section class="py-5 TBP " ></section>
+      <div class="container py-lg-3 TBP overflow-hidden">
         <div class="header_content mx-auto text-center mb-5">
           <h6 class="sub_tittle">The best products</h6>
           <h3>How we make your strategy <br />business</h3>
@@ -292,7 +274,7 @@
           </div>
           <div class="col-lg-4 item_TBP">
             <img
-              src="./img/service-circle.jpg"
+              src="../img/service-circle.jpg"
               alt=""
               class="rounded-circle img-fluid img_hover"
             />
@@ -353,7 +335,7 @@
     <!-- Featured services -->
     <div class="FS">
       <section class="py-5"></section>
-      <div class="container">
+      <div class="container overflow-hidden">
         <div class="header_FS mb-5 text-center mx-auto">
           <h6 class="sub_tittle">Featured services</h6>
           <h2>Some More Features</h2>
@@ -390,12 +372,12 @@
               <a href="#" class="theme-button btn-primary btn mb-lg-5 mb-4">
                 Know more</a
               >
-              <img src="./img/b1.jpg " alt="" class="img-fluid img_hover" />
+              <img src="../img/b1.jpg" alt="" class="img-fluid img_hover" />
             </div>
           </div>
           <div class="col-lg-6 mt-lg-0 mt-5">
             <div class="content_right">
-              <img src="./img/b2.jpg" alt="" class="img-fluid" />
+              <img src="../img/b2.jpg" alt="" class="img-fluid" />
               <section class="py-5"></section>
               <div class="content_right">
                 <h3 class="right">Work better together</h3>
@@ -424,7 +406,7 @@
 
     <!-- footer -->
     <footer class="py-5">
-      <div class="container">
+      <div class="container overflow-hidden">
         <div class="row">
           <div class="col-lg-6">
             <div class="row">
