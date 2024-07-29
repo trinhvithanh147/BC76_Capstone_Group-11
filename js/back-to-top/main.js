@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 (function () {
   // Back to Top - by CodyHouse.co
   var backTop = document.getElementsByClassName("js-cd-top")[0],
@@ -5,6 +6,15 @@
     offsetOpacity = 1200, //browser window scroll (in pixels) after which the "back to top" link opacity is reduced
     scrollDuration = 150,
     scrolling = false;
+=======
+(function(){
+    // Back to Top - by CodyHouse.co
+	var backTop = document.getElementsByClassName('js-cd-top')[0],
+		offset = 300, // browser window scroll (in pixels) after which the "back to top" link is shown
+		offsetOpacity = 1200, //browser window scroll (in pixels) after which the "back to top" link opacity is reduced
+		scrollDuration = 150,
+		scrolling = false;
+>>>>>>> 965030a6385c11fad937a27d1d0d7a7cf23df70f
 
   if (backTop) {
     //update back to top visibility on scrolling
