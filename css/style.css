@@ -943,8 +943,12 @@ footer .row li a:hover {
     text-align: center;
   }
 
-  .case .case_content .tab-pane img {
+  .case .case_content .tab-pane img{
     margin-top: 48px;
+  }
+  .case .case_content .tab-pane #img_tab_pane_2{
+    margin-bottom: 48px !important;
+    margin-top: 0 !important;
   }
 }
 @media screen and (max-width: 767px) {
