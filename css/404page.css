@@ -531,7 +531,10 @@ form{
   border-radius: 4px;
   display: inline-block;
   font-weight: 500;
-  outline: none;
+}
+#post-16 .form-control:focus{
+  box-shadow: none;
+  border: 1px solid #dc4f72;
 }
 #post-16 button {
   display: inline-block;
