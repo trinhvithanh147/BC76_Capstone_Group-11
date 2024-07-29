@@ -607,8 +607,13 @@ form{
   background-color: #de5e7e;
 }
 #post-16 .back_button {
-  transition: all 0.5s;
+  font-weight: 700;
+  color: #2c3038;
 }
 #post-16 .back_button:hover {
   color: #dc4f72;
+}
+.back_to_home
+{
+  transition: all 0.5s;
 }
