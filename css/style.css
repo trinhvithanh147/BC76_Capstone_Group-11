@@ -397,9 +397,6 @@ h1 {
   
 }
 
-.accordion-item {
-  margin-bottom: 15px;
-}
 .accordion-button:focus {
   outline: none;
   box-shadow: none;
@@ -409,13 +406,20 @@ h1 {
   font-size: 20px;
   line-height: 1;
   color: #2c3038;
-  padding: 25px 50px 25px 20px;
   max-width: 100%;
+  padding: 0;
+  font-weight: normal;
+  padding: 25px 50px 25px 20px;
+}
+.accordion-item {
+  margin-bottom: 15px;
+  border: 1px solid #eee;
+  background-color: #fff;
 }
 .accordion-body {
-  padding: 0 50px 25px 20px;
   color: #5a5a5a;
   font-size: 16px;
+  padding: 0 50px 25px 20px;
 }
 .questions_answers_content img {
   max-width: 100%;
