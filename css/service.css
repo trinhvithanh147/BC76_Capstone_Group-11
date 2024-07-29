@@ -306,12 +306,10 @@ footer .row li a:hover {
     padding: 0 !important;
     font-size: 24px;
   }
-  @media only screen and (max-width: 991px) {
     header.header {
       height: auto;
       padding: 25px 0;
     }
-  }
   .navbar {
     text-align: center;
   }
@@ -377,12 +375,6 @@ footer .row li a:hover {
   .navbar-toggler {
     padding: 0 !important;
     font-size: 24px;
-  }
-  @media only screen and (max-width: 991px) {
-    header.header {
-      height: auto;
-      padding: 15px 0;
-    }
   }
   .navbar {
     text-align: center;
