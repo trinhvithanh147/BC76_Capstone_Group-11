@@ -396,7 +396,12 @@ h1 {
   background-color: #f7f9fc;
   
 }
-
+.accordion-button::after{
+  content: "";
+  position: absolute;
+  right: 20px;
+  flex: 1 1 auto;
+}
 .accordion-button:focus {
   outline: none;
   box-shadow: none;
@@ -411,6 +416,7 @@ h1 {
   padding: 25px 50px 25px 20px;
 }
 .accordion-item {
+  position: relative;
   margin-bottom: 15px;
   border: 1px solid #eee;
   background-color: #fff;
