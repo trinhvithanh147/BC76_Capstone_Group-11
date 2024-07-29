@@ -515,25 +515,27 @@ footer .row li a:hover {
   font-weight: 700;
   color: #2c3038;
 }
-#post-16 .form-inline {
-  width: 100%;
-  text-align: center;
+form{
+  max-width: 450px;
+  margin: 0 auto;
 }
 #post-16 .form-control {
-  width: 60%;
+  width: 100%;
   color: #666;
   background: #fff;
-  /* padding: 16px 110px 12px 20px; */
+  padding: 16px 12px;
   font-size: 16px;
   line-height: 28px;
   height: 58px;
   border: 1px solid #ddd;
   border-radius: 4px;
-  display: block;
+  display: inline-block;
   font-weight: 500;
+  outline: none;
 }
 #post-16 button {
-  width: auto;
+  display: inline-block;
+  font-weight: 500;
   color: #fff;
   background-color: #dc4f72;
   font-size: 16px;
@@ -541,6 +543,11 @@ footer .row li a:hover {
   border-radius: 4px;
   transition: all 0.3s;
   padding: 15px 25px;
+  position: absolute;
+  width: 100px;
+  top: 0;
+  right: 0;
+  height: 58px;
 }
 #post-16 button:hover {
   background-color: #de5e7e;
