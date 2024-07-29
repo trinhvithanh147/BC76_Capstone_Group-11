@@ -415,11 +415,23 @@ li.breadcrumb-item a:hover{
 .our_service_content h5 {
   color: #999;
 }
-.title h3 {
-  font-weight: 800;
+.title h2 {
+  font-weight: 800 !important;
+  color: #2c3038;
+  font-size: 46px !important;
+  line-height: 55px;
 }
 .left h3 {
-  font-weight: 700;
+  font-weight: 600;
+  font-size: 42px;
+  line-height: 1;
+  color: #2c3038;
+  margin-bottom: 30px;
+}
+.left h5{
+  font-size: 24px;
+  line-height: 30px;
+  color: #999;
 }
 .btn-primary {
   display:inline-block;
@@ -449,6 +461,7 @@ li.breadcrumb-item a:hover{
   text-align: center;
   margin-bottom: 15px;
   box-shadow: 1px 5px 7.5px rgba(14, 13, 13, 0.2);
+  background-color: #f7f9fc;
 }
 
 .right img {
