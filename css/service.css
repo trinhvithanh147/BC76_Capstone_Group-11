@@ -394,9 +394,13 @@ ol.breadcrumb {
   font-size: 14px;
 }
 
-li.breadcrumb-item a {
+li.breadcrumb-item a{
   text-decoration: none;
   color: #dc4f72;
+  
+}
+li.breadcrumb-item a:hover{
+  text-decoration: underline;
 }
 /* our service  */
 .our_service_content h5 {
@@ -566,7 +570,16 @@ li.breadcrumb-item a {
 .FS .content_left p {
   margin-top: 20px;
 }
-
+.content_left{
+  padding: 2rem;
+  border: 1px solid #f7f9fc;
+  border-radius: 6px;
+}
+.content_right{
+  padding: 2rem;
+  border: 1px solid #f7f9fc;
+  border-radius: 6px;
+}
 /* test */
 
 @media screen and (min-width: 576px) {
