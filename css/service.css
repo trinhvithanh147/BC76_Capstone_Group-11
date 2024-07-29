@@ -366,25 +366,18 @@ li.breadcrumb-item a {
 .left h3 {
   font-weight: 700;
 }
-
-.theme-button {
-  padding: 0 30px;
-  margin: 0;
-  font-size: 14px;
-  line-height: 52px;
-}
 .btn-primary {
   display:inline-block;
   color: white;
   background-color: #dc4f72;
   border-color: #dc4f72;
   transition: all 0.5s;
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 700;
   line-height: 52px;
   padding: 0 30px;
   text-transform: uppercase;
-    }
+}
 
 
 .btn-primary:hover {
