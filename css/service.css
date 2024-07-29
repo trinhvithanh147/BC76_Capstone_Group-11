@@ -153,6 +153,19 @@ h1 {
   background-color: #dc4f72;
   color: #fff;
 }
+/* location */
+.location .location_content {
+  font-size: 14px;
+  color: #2c3038;
+}
+.location .location_content a {
+  color: #dc4f72;
+  font-size: 14px;
+  text-decoration: none;
+}
+.location .location_content a:hover {
+  text-decoration: underline;
+}
 /* footer */
 footer {
   background-color: #f7f9fc;
