@@ -926,7 +926,7 @@ footer .row li a:hover {
 .back_to_top {
   position: fixed;
   bottom: 0;
-  right: 0;
+  right: 2px;
   opacity: 0;
   transition: all 0.5s;
   z-index: 999;
@@ -1078,7 +1078,12 @@ footer .row li a:hover {
     margin-top: 0 !important;
   }
 }
-
+@media (max-width: 800px) {
+  .title h3 {
+      font-size: 40px;
+      line-height: 50px;
+  }
+}
 @media screen and (max-width: 767px) {
   .button button {
     line-height: 44px !important;
@@ -1101,6 +1106,10 @@ footer .row li a:hover {
     position: absolute;
     left: 0;
   }
+  .title h3 {
+        font-size: 32px;
+        line-height: 42px;
+    }
 }
 
 @media screen and (max-width: 568px) {
