@@ -1062,10 +1062,12 @@ footer .row li a:hover {
     padding: 0 !important;
     font-size: 24px;
   }
-
+  .idea{
+    margin-top: 70px !important;
+  }
   header.header {
     height: auto;
-    padding: 25px 0;
+    padding: 15px 0;
   }
   .navbar {
     text-align: center;
@@ -1080,6 +1082,7 @@ footer .row li a:hover {
   .dropdown-menu{
     transform:translateX(0px);
   }
+ 
 }
 @media (max-width: 800px) {
   .title h3 {
@@ -1095,6 +1098,7 @@ footer .row h3{
     line-height: 44px !important;
     padding: 0 20px !important;
   }
+ 
 }
 @media screen and (max-width: 667px) {
   .carousel_item {
