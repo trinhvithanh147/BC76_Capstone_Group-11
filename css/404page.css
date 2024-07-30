@@ -339,6 +339,9 @@ footer .row li a:hover {
     border-radius: 0.25rem;
     border: none;
   }
+  .dropdown-menu{
+    transform:translateX(0px);
+  }
   .navbar-toggler {
     padding: 0 !important;
     font-size: 24px;
@@ -356,7 +359,15 @@ footer .row li a:hover {
     right: 46px;
   }
 }
-
+@media (max-width: 800px) {
+  .title h3 {
+      font-size: 40px;
+      line-height: 50px;
+  }
+footer .row h3{
+    margin-bottom: 18px;
+  }
+}
 @media screen and (max-width: 568px) {
   .navbar_moon {
     position: absolute;

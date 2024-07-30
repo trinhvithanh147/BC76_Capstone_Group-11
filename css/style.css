@@ -1077,11 +1077,17 @@ footer .row li a:hover {
     margin-bottom: 48px !important;
     margin-top: 0 !important;
   }
+  .dropdown-menu{
+    transform:translateX(0px);
+  }
 }
 @media (max-width: 800px) {
   .title h3 {
       font-size: 40px;
       line-height: 50px;
+  }
+footer .row h3{
+    margin-bottom: 18px;
   }
 }
 @media screen and (max-width: 767px) {

@@ -614,13 +614,14 @@ footer .row li a:hover {
     border-radius: 0.25rem;
     border: none;
   }
-  @media screen and (max-width: 912px) {
     .form_contact {
       position: absolute;
       left: 0;
       top: -20px;
     }
-  }
+    .dropdown-menu{
+      transform:translateX(0px);
+    }
   .navbar_moon {
     position: absolute;
     top: 9px;
@@ -642,7 +643,11 @@ footer .row li a:hover {
     text-align: center;
   }
 }
-
+@media (max-width: 800px) {
+footer .row h3{
+    margin-bottom: 18px;
+  }
+}
 @media screen and (max-width: 568px) {
   .navbar_moon {
     position: absolute;
