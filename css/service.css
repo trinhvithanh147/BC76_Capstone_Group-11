@@ -458,6 +458,9 @@ li.breadcrumb-item a:hover{
 .right p{
   margin-bottom: 0;
   margin-top: 5px;
+  font-size: 16px;
+  line-height: 20.5px;
+  color: #5a5a5a;
 }
 .right h4 a:hover {
   color: #cf2952;
@@ -656,6 +659,9 @@ li.breadcrumb-item a:hover{
     margin-right: auto;
     margin-left: auto;
   }
+  .container, .container-sm, .container-md {
+    max-width: 720px;
+}
 }
 
 @media screen and (min-width: 992px) {
