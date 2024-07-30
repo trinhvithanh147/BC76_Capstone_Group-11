@@ -322,7 +322,11 @@ footer .row li a:hover {
     right: 46px;
   }
 }
-
+@media screen and (max-width: 480px) {
+  .left h5 {
+      font-size: 20px !important;
+  }
+}
 /* community */
 .community .button button:first-of-type {
   border-color: #dc4f72;
