@@ -374,14 +374,17 @@ footer .row li a:hover {
     padding: 0 !important;
     font-size: 24px;
   }
-  @media only screen and (max-width: 991px) {
     header.header {
       height: auto;
-      padding: 15px 0;
+      padding: 25px 0;
     }
-  }
   .navbar {
     text-align: center;
+  }
+  .navbar_moon {
+    position: absolute;
+    top: 9px;
+    right: 46px;
   }
 }
 

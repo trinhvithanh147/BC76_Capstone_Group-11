@@ -481,6 +481,9 @@ li.breadcrumb-item a:hover{
   color: #2c302c;
 }
 /* item_content  */
+.right-icon{
+  text-align: center;
+}
 .TBP .icon {
   font-size: 20px;
   font-weight: 700;
@@ -649,12 +652,6 @@ li.breadcrumb-item a:hover{
     margin-right: auto;
     margin-left: auto;
   }
-
-  .container,
-  .container-sm,
-  .container-md {
-    max-width: 720px;
-  }
 }
 
 @media screen and (min-width: 992px) {
@@ -792,9 +789,17 @@ li.breadcrumb-item a:hover{
   .navbar {
     text-align: center;
   }
+  .navbar_moon {
+    position: absolute;
+    top: 9px;
+    right: 46px;
+  }
   .item_TBP:nth-of-type(2){
     width: 300PX;
     margin: 20px auto 40px;
+  }
+  .right-icon{
+    text-align: right;
   }
 }
 @media screen and (max-width: 767px) {
