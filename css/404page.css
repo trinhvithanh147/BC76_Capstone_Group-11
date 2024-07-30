@@ -30,7 +30,19 @@ h1 {
   outline: none;
   background: none;
 }
-
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+}
+.container {
+  width: 100%;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
 /* header */
 .header {
   background-color: #fff;
